@@ -37,26 +37,3 @@ const styles={
   }
 }
 export default Profile;
-{/*function Profile(){
-  
-     const [file,setFile]=useState(null);
-            const uploadFile=async(event)=>{
-              event.preventDefault();
-              const sdata=new FormData();
-              sdata.append('file',file);
-                const response = await fetch("http://localhost:4000/api/image-upload", {
-                  method: 'POST',
-                  body: sdata
-                });
-                const msg = await response.text();
-                alert(msg);
-            };
-    return(//for profile uploading 
-<div className='image-upload'> 
-            <form onSubmit={uploadFile}>
-              FILE:<input type="file" accept="image/*" onChange={(e)=> setFile(e.target.files[0])} />
-              <input type='submit' value="save info"/>
-            </form>
-            </div>
-    );
-}*/}
