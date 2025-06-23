@@ -1,6 +1,4 @@
-/* .file-upload{
-  display:none;
-} */
+
 /* Button to open menu */
 .menu-button {
   position: relative;
@@ -59,7 +57,7 @@
 }
 a {
   color: white; 
-  text-decoration: none; /* optional: remove underline */
+  text-decoration: none; /* remove underline */
 }
 .item:hover{
    background-color: rgb(100, 92, 92,0.3);
@@ -121,7 +119,7 @@ button {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   align-items: center;
 }
-/* App.css */
+
 .plant-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
